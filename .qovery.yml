@@ -1,0 +1,11 @@
+---
+application:
+  name: "botkaca"
+  project: "downbot"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-botkaca"
+  routes:
+  - application_name: "botkaca"
+    paths:
+    - "/*"
